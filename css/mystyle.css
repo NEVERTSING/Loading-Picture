@@ -1,0 +1,52 @@
+body{
+  min-width: 1000px;
+}
+h1{
+  background:url('../images/top.png') repeat-x;
+  text-align: center;
+  font-size: 26px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+h1 span{
+  background-color: #fff;
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  font-family: initial;
+}
+.container div{
+  margin-top: 5px;
+  height: 450px;
+}
+.title{
+  color:#666;
+  font-size: 12px;
+  margin-top: 10px;
+  text-indent: 15px;
+  display: inline-block;
+}
+.yuan{
+  display: inline-block;
+  color:#f10214;
+  font-size: 15px;
+  font-weight: bold;
+}
+.price{
+  color:#f10214;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 120px;
+}
+#display-loading{
+  width: 87%;
+  height: 80px;
+  color: #999;
+  background-color:rgb(242,242,242);
+  text-align: center;
+  line-height: 80px;
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  top: 6000px;
+}

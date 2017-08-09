@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Loading Pic</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/mystyle.css">
+        <!--你自己的样式文件 -->
+        <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js\jquery-2.1.3.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+          var loading=[
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB1d6AmRpXXXXX0aXXXYXGcGpXX_M2.SS2_280x380xz.jpg',price:147},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB1J0vySXXXXXa_XpXXXXXXXXXX_!!2-item_pic.png_280x380xz.jpg',price:137},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB1O7yfQVXXXXb2XXXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg',price:130},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB1pszsQVXXXXXsXpXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg',price:174},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2bdcMuItnpuFjSZFKXXalFFXa_!!2513483300.jpg_280x380xz.jpg',price:170},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2HaKxumtkpuFjy0FhXXXQzFXa_!!51890615.jpg_280x380xz.jpg',price:134},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2lfq3vShlpuFjSspkXXa1ApXa_!!2168374171.jpg_280x380xz.jpg',price:134},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2bdcMuItnpuFjSZFKXXalFFXa_!!2513483300.jpg_280x380xz.jpg',price:270},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2r019vmJjpuFjy0FdXXXmoFXa_!!312684381.jpg_280x380xz.jpg',price:120},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2VJF1sMRkpuFjy1zeXXc.6FXa_!!101126324.jpg_280x380xz.jpg',price:130},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2WW8JmR0kpuFjy1zdXXXuUVXa_!!57663429.jpg_280x380xz.jpg',price:124},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2wyM6vOlnpuFjSZFgXXbi7FXa_!!3298026873.jpg_280x380xz.jpg',price:173},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB1pszsQVXXXXXsXpXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg',price:140},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2yhcbwl0kpuFjSsziXXa.oVXa_!!704298669.jpg_280x380xz.jpg',price:140},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB22ON2nH_0UKFjy1XaXXbKfXXa_!!260067063.jpg_280x380xz.jpg',price:140},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB29Q24Xk7myKJjSZFkXXa3vVXa_!!13410985.jpg_280x380xz.jpg',price:130},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2N51LsblmpuFjSZFlXXbdQXXa_!!1045326527.jpg_280x380xz.jpg',price:143},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2HaKxumtkpuFjy0FhXXXQzFXa_!!51890615.jpg_280x380xz.jpg',price:120},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2nhNHAUlnpuFjSZFjXXXTaVXa_!!479184430.jpg_280x380xz.jpg',price:124},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2wVo6sY0kpuFjy0FjXXcBbVXa_!!555788772.jpg_280x380xz.jpg',price:130},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2r019vmJjpuFjy0FdXXXmoFXa_!!312684381.jpg_280x380xz.jpg',price:140},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2lfq3vShlpuFjSspkXXa1ApXa_!!2168374171.jpg_280x380xz.jpg',price:173},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2S3ocAyRnpuFjSZFCXXX2DXXa_!!2207028025.jpg_280x380xz.jpg',price:140},
+            {title:'SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤',image:'images/TB2nhNHAUlnpuFjSZFjXXXTaVXa_!!479184430.jpg_280x380xz.jpg',price:130},
+          ];
+
+        var i;
+      $(window).bind('scroll',function(event){
+        if(i==loading.length){$('#display-loading').css('display','block');return;}
+        var top=$(document).scrollTop();
+        var textHeight=$(document).height();
+        if(textHeight-top-$(window).height()<=600){
+          $('#container').css('height',$(document).height()+20);
+          $('<div class="row" id="row"></div>').appendTo($("#container"));
+          for(i=0;i<loading.length;i++){
+            if(i==loading.length){
+              $('<div id="display-loading"><p>商品已经加载完毕</p></div>').appendTo('#container');
+              return;
+            }
+          $('<div class="col-md-3 col-xs-3"><img src='+loading[i].image+' alt="图片"/><span class="title">'+loading[i].title+'<span class="price"><span class="yuan">¥</span>'+loading[i].price+'</span></span></div>').appendTo($('#row'));
+
+        }
+      }
+      });
+
+    });
+    </script>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <h1><span>You may be like</span></h1>
+      <div class="row">
+      <div class="col-md-3 col-xs-3"><img src="images\TB1d6AmRpXXXXX0aXXXYXGcGpXX_M2.SS2_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>100</span></span></div>
+      <div class="col-md-3 col-xs-3"><img src="images\TB1O7yfQVXXXXb2XXXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>50</span></span></div>
+      <div class="col-md-3 col-xs-3"><img src="images\TB1pszsQVXXXXXsXpXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>60</span></span></div>
+      <div class="col-md-3 col-xs-3"><img src="images\TB1X8utQXXXXXcQXFXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>120</span></span></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-3"><img src="images\TB2a3xDswNlpuFjy0FfXXX3CpXa_!!3078226598.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>90</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2bdcMuItnpuFjSZFKXXalFFXa_!!2513483300.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>130</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2fv6AqohnpuFjSZFpXXcpuXXa_!!2255755804.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>145</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2GWdjqyC9MuFjSZFoXXbUzFXa_!!831529103.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>120</span></span></div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-3"><img src="images\TB2HaKxumtkpuFjy0FhXXXQzFXa_!!51890615.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>110</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2HW5Bvd0opuFjSZFxXXaDNVXa_!!674634432.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>30</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2lfq3vShlpuFjSspkXXa1ApXa_!!2168374171.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>140</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2N51LsblmpuFjSZFlXXbdQXXa_!!1045326527.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>106</span></span></div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-3"><img src="images\TB2nhNHAUlnpuFjSZFjXXXTaVXa_!!479184430.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>130</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2oZQOAC8mpuFjSZFMXXaxpVXa_!!704298669.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>150</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2R9p8spXXXXb0XXXXXXXXXXXX_!!1805134965.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>108</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2r019vmJjpuFjy0FdXXXmoFXa_!!312684381.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>160</span></span></div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-3"><img src="images\TB2S3ocAyRnpuFjSZFCXXX2DXXa_!!2207028025.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>154</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2VJF1sMRkpuFjy1zeXXc.6FXa_!!101126324.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>134</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2wVo6sY0kpuFjy0FjXXcBbVXa_!!555788772.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>67</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2WW8JmR0kpuFjy1zdXXXuUVXa_!!57663429.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>157</span></span></div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-3"><img src="images\TB2wyM6vOlnpuFjSZFgXXbi7FXa_!!3298026873.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>200</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2yhcbwl0kpuFjSsziXXa.oVXa_!!704298669.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>230</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB18zsIQVXXXXXlXXXXXXXXXXXX_!!0-item_pic.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>240</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB22ON2nH_0UKFjy1XaXXbKfXXa_!!260067063.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>250</span></span></div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-3"><img src="images\TB29Q24Xk7myKJjSZFkXXa3vVXa_!!13410985.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>100</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2N51LsblmpuFjSZFlXXbdQXXa_!!1045326527.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>120</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2HaKxumtkpuFjy0FhXXXQzFXa_!!51890615.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>130</span></span></div>
+        <div class="col-md-3 col-xs-3"><img src="images\TB2bdcMuItnpuFjSZFKXXalFFXa_!!2513483300.jpg_280x380xz.jpg" alt="图片"/><span class="title">SHERRY韩版连体裤春夏女2017新款雪纺羽毛阔腿短裤连衣裤<span class="price"><span class="yuan">¥</span>160</span></span></div>
+      </div>
+      <div id="display-loading"><p>商品已经加载完毕</p></div>
+      </div>
+
+      <script src="js\bootstrap.min.js" type="text/javascript"></script>
+  </body>
+</html>
